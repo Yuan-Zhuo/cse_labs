@@ -1,0 +1,10 @@
+*.d
+*.o
+test.cc
+a.out
+part1_tester
+yfs_client
+out.txt
+.vscode/*
+yfs_client1.log
+debug_log.txt
