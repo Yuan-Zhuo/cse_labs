@@ -1,0 +1,2910 @@
+FUSE library version: 2.9.4
+unique: 2, opcode: INIT (26), nodeid: 0, insize: 56, pid: 0
+INIT: 7.28
+flags=0x00fffffb
+max_readahead=0x00020000
+   INIT: 7.19
+   flags=0x00000000
+   max_readahead=0x00020000
+   max_write=0x00020000
+   max_background=0
+   congestion_threshold=0
+   unique: 2, success, outsize: 40
+unique: 4, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 167
+isfile: 287 is a dir
+isfile: 287 is not a dir
+getfile 000000000000011f
+getfile 000000000000011f -> sz 10
+   unique: 4, success, outsize: 144
+unique: 6, opcode: GETATTR (3), nodeid: 287, insize: 56, pid: 167
+isfile: 287 is a dir
+isfile: 287 is not a dir
+getfile 000000000000011f
+getfile 000000000000011f -> sz 10
+   unique: 6, success, outsize: 120
+unique: 8, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 167
+isfile: 287 is a dir
+isfile: 287 is not a dir
+getfile 000000000000011f
+getfile 000000000000011f -> sz 10
+   unique: 8, success, outsize: 144
+unique: 10, opcode: UNLINK (10), nodeid: 1, insize: 46, pid: 167
+isfile: 287 is not a dir
+   unique: 10, success, outsize: 16
+unique: 12, opcode: FORGET (2), nodeid: 287, insize: 48, pid: 0
+unique: 14, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 167
+isfile: 289 is a dir
+isfile: 289 is not a dir
+getfile 0000000000000121
+getfile 0000000000000121 -> sz 10
+   unique: 14, success, outsize: 144
+unique: 16, opcode: GETATTR (3), nodeid: 289, insize: 56, pid: 167
+isfile: 289 is a dir
+isfile: 289 is not a dir
+getfile 0000000000000121
+getfile 0000000000000121 -> sz 10
+   unique: 16, success, outsize: 120
+unique: 18, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 167
+isfile: 289 is a dir
+isfile: 289 is not a dir
+getfile 0000000000000121
+getfile 0000000000000121 -> sz 10
+   unique: 18, success, outsize: 144
+unique: 20, opcode: UNLINK (10), nodeid: 1, insize: 54, pid: 167
+isfile: 289 is not a dir
+   unique: 20, success, outsize: 16
+unique: 22, opcode: FORGET (2), nodeid: 289, insize: 48, pid: 0
+unique: 24, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 167
+isfile: 290 is a file
+getfile 0000000000000122
+getfile 0000000000000122 -> sz 0
+   unique: 24, success, outsize: 144
+unique: 26, opcode: GETATTR (3), nodeid: 290, insize: 56, pid: 167
+isfile: 290 is a file
+getfile 0000000000000122
+getfile 0000000000000122 -> sz 0
+   unique: 26, success, outsize: 120
+unique: 28, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 167
+isfile: 290 is a file
+getfile 0000000000000122
+getfile 0000000000000122 -> sz 0
+   unique: 28, success, outsize: 144
+unique: 30, opcode: UNLINK (10), nodeid: 1, insize: 51, pid: 167
+isfile: 290 is not a dir
+   unique: 30, success, outsize: 16
+unique: 32, opcode: FORGET (2), nodeid: 290, insize: 48, pid: 0
+unique: 34, opcode: LOOKUP (1), nodeid: 1, insize: 52, pid: 167
+   unique: 34, error: -2 (No such file or directory), outsize: 16
+unique: 36, opcode: LOOKUP (1), nodeid: 1, insize: 52, pid: 167
+   unique: 36, error: -2 (No such file or directory), outsize: 16
+unique: 38, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 168
+   unique: 38, error: -2 (No such file or directory), outsize: 16
+unique: 40, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 168
+   unique: 40, error: -2 (No such file or directory), outsize: 16
+unique: 42, opcode: SYMLINK (6), nodeid: 1, insize: 57, pid: 168
+isfile: 290 is a dir
+isfile: 290 is not a dir
+getfile 0000000000000122
+getfile 0000000000000122 -> sz 10
+   unique: 42, success, outsize: 144
+unique: 44, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 169
+isfile: 290 is a dir
+isfile: 290 is not a dir
+getfile 0000000000000122
+getfile 0000000000000122 -> sz 10
+   unique: 44, success, outsize: 144
+unique: 46, opcode: READLINK (5), nodeid: 290, insize: 40, pid: 169
+   unique: 46, success, outsize: 26
+unique: 48, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 170
+   unique: 48, error: -2 (No such file or directory), outsize: 16
+unique: 50, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 170
+   unique: 50, error: -2 (No such file or directory), outsize: 16
+unique: 52, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 170
+   unique: 52, error: -2 (No such file or directory), outsize: 16
+unique: 54, opcode: CREATE (35), nodeid: 1, insize: 67, pid: 170
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 0
+   unique: 54, success, outsize: 160
+OK: create returns.
+unique: 56, opcode: GETATTR (3), nodeid: 291, insize: 56, pid: 170
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 0
+   unique: 56, success, outsize: 120
+unique: 58, opcode: GETXATTR (22), nodeid: 291, insize: 68, pid: 170
+   unique: 58, error: -38 (Function not implemented), outsize: 16
+unique: 60, opcode: WRITE (16), nodeid: 291, insize: 254, pid: 170
+   unique: 60, success, outsize: 24
+unique: 62, opcode: FLUSH (25), nodeid: 291, insize: 64, pid: 170
+   unique: 62, error: -38 (Function not implemented), outsize: 16
+unique: 64, opcode: RELEASE (18), nodeid: 291, insize: 64, pid: 0
+   unique: 64, success, outsize: 16
+unique: 66, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 171
+   unique: 66, error: -2 (No such file or directory), outsize: 16
+unique: 68, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 171
+   unique: 68, error: -2 (No such file or directory), outsize: 16
+unique: 70, opcode: SYMLINK (6), nodeid: 1, insize: 65, pid: 171
+isfile: 292 is a dir
+isfile: 292 is not a dir
+getfile 0000000000000124
+getfile 0000000000000124 -> sz 10
+   unique: 70, success, outsize: 144
+unique: 72, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 172
+isfile: 292 is a dir
+isfile: 292 is not a dir
+getfile 0000000000000124
+getfile 0000000000000124 -> sz 10
+   unique: 72, success, outsize: 144
+unique: 74, opcode: READLINK (5), nodeid: 292, insize: 40, pid: 172
+   unique: 74, success, outsize: 26
+unique: 76, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 172
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 174
+   unique: 76, success, outsize: 144
+unique: 78, opcode: GETATTR (3), nodeid: 291, insize: 56, pid: 172
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 174
+   unique: 78, success, outsize: 120
+unique: 80, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 172
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 174
+   unique: 80, success, outsize: 144
+unique: 82, opcode: GETATTR (3), nodeid: 291, insize: 56, pid: 172
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 174
+   unique: 82, success, outsize: 120
+unique: 84, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 173
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 174
+   unique: 84, success, outsize: 144
+unique: 86, opcode: GETATTR (3), nodeid: 291, insize: 56, pid: 173
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 174
+   unique: 86, success, outsize: 120
+unique: 88, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 173
+isfile: 291 is a file
+getfile 0000000000000123
+getfile 0000000000000123 -> sz 174
+   unique: 88, success, outsize: 144
+unique: 90, opcode: UNLINK (10), nodeid: 1, insize: 51, pid: 173
+isfile: 291 is not a dir
+   unique: 90, success, outsize: 16
+unique: 92, opcode: FORGET (2), nodeid: 291, insize: 48, pid: 0
+unique: 94, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 174
+   unique: 94, error: -2 (No such file or directory), outsize: 16
+unique: 96, opcode: CREATE (35), nodeid: 1, insize: 67, pid: 174
+isfile: 293 is a file
+getfile 0000000000000125
+getfile 0000000000000125 -> sz 0
+   unique: 96, success, outsize: 160
+OK: create returns.
+unique: 98, opcode: SETATTR (4), nodeid: 293, insize: 128, pid: 174
+fuseserver_setattr 0x1b0
+   unique: 98, error: -38 (Function not implemented), outsize: 16
+unique: 100, opcode: SETATTR (4), nodeid: 293, insize: 128, pid: 174
+fuseserver_setattr 0x1b0
+   unique: 100, error: -38 (Function not implemented), outsize: 16
+unique: 102, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 174
+isfile: 293 is a file
+getfile 0000000000000125
+getfile 0000000000000125 -> sz 0
+   unique: 102, success, outsize: 144
+unique: 104, opcode: SETATTR (4), nodeid: 293, insize: 128, pid: 174
+fuseserver_setattr 0x1b0
+   unique: 104, error: -38 (Function not implemented), outsize: 16
+unique: 106, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 174
+isfile: 293 is a file
+getfile 0000000000000125
+getfile 0000000000000125 -> sz 0
+   unique: 106, success, outsize: 144
+unique: 108, opcode: SETATTR (4), nodeid: 293, insize: 128, pid: 174
+fuseserver_setattr 0x1b0
+   unique: 108, error: -38 (Function not implemented), outsize: 16
+unique: 110, opcode: RELEASE (18), nodeid: 293, insize: 64, pid: 0
+   unique: 110, success, outsize: 16
+unique: 112, opcode: LOOKUP (1), nodeid: 1, insize: 54, pid: 175
+isfile: 292 is a dir
+isfile: 292 is not a dir
+getfile 0000000000000124
+getfile 0000000000000124 -> sz 10
+   unique: 112, success, outsize: 144
+unique: 114, opcode: READLINK (5), nodeid: 292, insize: 40, pid: 175
+   unique: 114, success, outsize: 26
+unique: 116, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 175
+isfile: 293 is a file
+getfile 0000000000000125
+getfile 0000000000000125 -> sz 0
+   unique: 116, success, outsize: 144
+unique: 118, opcode: GETATTR (3), nodeid: 293, insize: 56, pid: 175
+isfile: 293 is a file
+getfile 0000000000000125
+getfile 0000000000000125 -> sz 0
+   unique: 118, success, outsize: 120
+unique: 120, opcode: LOOKUP (1), nodeid: 1, insize: 51, pid: 175
+isfile: 293 is a file
+getfile 0000000000000125
+getfile 0000000000000125 -> sz 0
+   unique: 120, success, outsize: 144
+unique: 122, opcode: GETATTR (3), nodeid: 293, insize: 56, pid: 175
+isfile: 293 is a file
+getfile 0000000000000125
+getfile 0000000000000125 -> sz 0
+   unique: 122, success, outsize: 120
+unique: 124, opcode: LOOKUP (1), nodeid: 1, insize: 53, pid: 210
+   unique: 124, error: -2 (No such file or directory), outsize: 16
+unique: 126, opcode: CREATE (35), nodeid: 1, insize: 69, pid: 210
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 0
+   unique: 126, success, outsize: 160
+OK: create returns.
+unique: 128, opcode: SETATTR (4), nodeid: 294, insize: 128, pid: 210
+fuseserver_setattr 0x8
+   fuseserver_setattr set size to 3072
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 3072
+   unique: 128, success, outsize: 120
+unique: 130, opcode: IOCTL (39), nodeid: 294, insize: 72, pid: 210
+   unique: 130, error: -38 (Function not implemented), outsize: 16
+unique: 132, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 132, success, outsize: 24
+unique: 134, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 134, success, outsize: 24
+unique: 136, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 136, success, outsize: 24
+unique: 138, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 138, success, outsize: 24
+unique: 140, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 140, success, outsize: 24
+unique: 142, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 142, success, outsize: 24
+unique: 144, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 144, success, outsize: 24
+unique: 146, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 146, success, outsize: 24
+unique: 148, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 148, success, outsize: 24
+unique: 150, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 150, success, outsize: 24
+unique: 152, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 152, success, outsize: 24
+unique: 154, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 154, success, outsize: 24
+unique: 156, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 156, success, outsize: 24
+unique: 158, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 158, success, outsize: 24
+unique: 160, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 160, success, outsize: 24
+unique: 162, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 162, success, outsize: 24
+unique: 164, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 164, success, outsize: 24
+unique: 166, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 166, success, outsize: 24
+unique: 168, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 168, success, outsize: 24
+unique: 170, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 170, success, outsize: 24
+unique: 172, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 172, success, outsize: 24
+unique: 174, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 174, success, outsize: 24
+unique: 176, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 176, success, outsize: 24
+unique: 178, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 178, success, outsize: 24
+unique: 180, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 180, success, outsize: 24
+unique: 182, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 182, success, outsize: 24
+unique: 184, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 184, success, outsize: 24
+unique: 186, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 186, success, outsize: 24
+unique: 188, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 188, success, outsize: 24
+unique: 190, opcode: WRITE (16), nodeid: 294, insize: 1104, pid: 210
+   unique: 190, success, outsize: 24
+unique: 192, opcode: RELEASE (18), nodeid: 294, insize: 64, pid: 0
+   unique: 192, success, outsize: 16
+unique: 194, opcode: LOOKUP (1), nodeid: 1, insize: 53, pid: 211
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 194, success, outsize: 144
+unique: 196, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 211
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 196, success, outsize: 120
+unique: 198, opcode: LOOKUP (1), nodeid: 1, insize: 53, pid: 211
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 198, success, outsize: 144
+unique: 200, opcode: OPEN (14), nodeid: 294, insize: 48, pid: 211
+   unique: 200, success, outsize: 32
+unique: 202, opcode: READ (15), nodeid: 294, insize: 80, pid: 211
+   unique: 202, success, outsize: 16400
+unique: 204, opcode: READ (15), nodeid: 294, insize: 80, pid: 211
+   unique: 204, success, outsize: 17424
+unique: 206, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 211
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 206, success, outsize: 120
+unique: 208, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 211
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 208, success, outsize: 120
+unique: 210, opcode: RELEASE (18), nodeid: 294, insize: 64, pid: 0
+   unique: 210, success, outsize: 16
+unique: 212, opcode: LOOKUP (1), nodeid: 1, insize: 53, pid: 212
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 212, success, outsize: 144
+unique: 214, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 212
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 214, success, outsize: 120
+unique: 216, opcode: LOOKUP (1), nodeid: 1, insize: 53, pid: 212
+isfile: 294 is a file
+getfile 0000000000000126
+getfile 0000000000000126 -> sz 33792
+   unique: 216, success, outsize: 144
+unique: 218, opcode: UNLINK (10), nodeid: 1, insize: 53, pid: 212
+isfile: 294 is not a dir
+   unique: 218, success, outsize: 16
+unique: 220, opcode: FORGET (2), nodeid: 294, insize: 48, pid: 0
+unique: 222, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 222, success, outsize: 144
+unique: 224, opcode: ACCESS (34), nodeid: 294, insize: 48, pid: 230
+   unique: 224, error: -38 (Function not implemented), outsize: 16
+unique: 226, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 226, success, outsize: 144
+unique: 228, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 3
+   unique: 228, success, outsize: 144
+unique: 230, opcode: OPEN (14), nodeid: 295, insize: 48, pid: 230
+   unique: 230, success, outsize: 32
+unique: 232, opcode: GETATTR (3), nodeid: 295, insize: 56, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 3
+   unique: 232, success, outsize: 120
+unique: 234, opcode: READ (15), nodeid: 295, insize: 80, pid: 230
+   unique: 234, success, outsize: 19
+unique: 236, opcode: RELEASE (18), nodeid: 295, insize: 64, pid: 0
+   unique: 236, success, outsize: 16
+unique: 238, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 238, success, outsize: 144
+unique: 240, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 3
+   unique: 240, success, outsize: 144
+unique: 242, opcode: UNLINK (10), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is not a dir
+   unique: 242, success, outsize: 16
+unique: 244, opcode: FORGET (2), nodeid: 295, insize: 48, pid: 0
+unique: 246, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 246, success, outsize: 144
+unique: 248, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+   unique: 248, error: -2 (No such file or directory), outsize: 16
+unique: 250, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 250, success, outsize: 144
+unique: 252, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 3
+   unique: 252, success, outsize: 144
+unique: 254, opcode: UNLINK (10), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is not a dir
+   unique: 254, success, outsize: 16
+unique: 256, opcode: FORGET (2), nodeid: 295, insize: 48, pid: 0
+unique: 258, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 258, success, outsize: 144
+unique: 260, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+   unique: 260, error: -2 (No such file or directory), outsize: 16
+unique: 262, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 262, success, outsize: 144
+unique: 264, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 3
+   unique: 264, success, outsize: 144
+unique: 266, opcode: OPEN (14), nodeid: 295, insize: 48, pid: 230
+   unique: 266, success, outsize: 32
+unique: 268, opcode: GETATTR (3), nodeid: 295, insize: 56, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 3
+   unique: 268, success, outsize: 120
+unique: 270, opcode: READ (15), nodeid: 295, insize: 80, pid: 230
+   unique: 270, success, outsize: 19
+unique: 272, opcode: RELEASE (18), nodeid: 295, insize: 64, pid: 0
+   unique: 272, success, outsize: 16
+unique: 274, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 274, success, outsize: 144
+unique: 276, opcode: LOOKUP (1), nodeid: 294, insize: 44, pid: 230
+   unique: 276, error: -2 (No such file or directory), outsize: 16
+unique: 278, opcode: CREATE (35), nodeid: 294, insize: 60, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 0
+   unique: 278, success, outsize: 160
+OK: create returns.
+unique: 280, opcode: WRITE (16), nodeid: 295, insize: 82, pid: 230
+   unique: 280, success, outsize: 24
+unique: 282, opcode: RELEASE (18), nodeid: 295, insize: 64, pid: 0
+   unique: 282, success, outsize: 16
+unique: 284, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 284, success, outsize: 144
+unique: 286, opcode: LOOKUP (1), nodeid: 294, insize: 44, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 2
+   unique: 286, success, outsize: 144
+unique: 288, opcode: UNLINK (10), nodeid: 294, insize: 44, pid: 230
+isfile: 295 is not a dir
+   unique: 288, success, outsize: 16
+unique: 290, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 290, success, outsize: 144
+unique: 292, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+   unique: 292, error: -2 (No such file or directory), outsize: 16
+unique: 294, opcode: FORGET (2), nodeid: 295, insize: 48, pid: 0
+unique: 296, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+   unique: 296, error: -2 (No such file or directory), outsize: 16
+unique: 298, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 298, success, outsize: 144
+unique: 300, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+   unique: 300, error: -2 (No such file or directory), outsize: 16
+unique: 302, opcode: CREATE (35), nodeid: 294, insize: 59, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 0
+   unique: 302, success, outsize: 160
+OK: create returns.
+unique: 304, opcode: WRITE (16), nodeid: 295, insize: 83, pid: 230
+   unique: 304, success, outsize: 24
+unique: 306, opcode: RELEASE (18), nodeid: 295, insize: 64, pid: 0
+   unique: 306, success, outsize: 16
+unique: 308, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 308, success, outsize: 144
+unique: 310, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 6
+   unique: 310, success, outsize: 144
+unique: 312, opcode: OPEN (14), nodeid: 295, insize: 48, pid: 230
+   unique: 312, success, outsize: 32
+unique: 314, opcode: WRITE (16), nodeid: 295, insize: 83, pid: 230
+   unique: 314, success, outsize: 24
+unique: 316, opcode: RELEASE (18), nodeid: 295, insize: 64, pid: 0
+   unique: 316, success, outsize: 16
+unique: 318, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 318, success, outsize: 144
+unique: 320, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 9
+   unique: 320, success, outsize: 144
+unique: 322, opcode: OPEN (14), nodeid: 295, insize: 48, pid: 230
+   unique: 322, success, outsize: 32
+unique: 324, opcode: GETATTR (3), nodeid: 295, insize: 56, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 9
+   unique: 324, success, outsize: 120
+unique: 326, opcode: READ (15), nodeid: 295, insize: 80, pid: 230
+   unique: 326, success, outsize: 25
+unique: 328, opcode: RELEASE (18), nodeid: 295, insize: 64, pid: 0
+   unique: 328, success, outsize: 16
+unique: 330, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 330, success, outsize: 144
+unique: 332, opcode: OPENDIR (27), nodeid: 294, insize: 48, pid: 230
+   unique: 332, success, outsize: 32
+unique: 334, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 334, success, outsize: 120
+unique: 336, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 336, success, outsize: 48
+unique: 338, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 338, success, outsize: 16
+unique: 340, opcode: RELEASEDIR (29), nodeid: 294, insize: 64, pid: 0
+   unique: 340, success, outsize: 16
+unique: 342, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 342, success, outsize: 144
+unique: 344, opcode: OPENDIR (27), nodeid: 294, insize: 48, pid: 230
+   unique: 344, success, outsize: 32
+unique: 346, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 346, success, outsize: 120
+unique: 348, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 348, success, outsize: 16
+unique: 350, opcode: RELEASEDIR (29), nodeid: 294, insize: 64, pid: 0
+   unique: 350, success, outsize: 16
+unique: 352, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 352, success, outsize: 144
+unique: 354, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+   unique: 354, error: -2 (No such file or directory), outsize: 16
+unique: 356, opcode: CREATE (35), nodeid: 294, insize: 59, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 0
+   unique: 356, success, outsize: 160
+OK: create returns.
+unique: 358, opcode: WRITE (16), nodeid: 295, insize: 83, pid: 230
+   unique: 358, success, outsize: 24
+unique: 360, opcode: RELEASE (18), nodeid: 295, insize: 64, pid: 0
+   unique: 360, success, outsize: 16
+unique: 362, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 362, success, outsize: 144
+unique: 364, opcode: OPENDIR (27), nodeid: 294, insize: 48, pid: 230
+   unique: 364, success, outsize: 32
+unique: 366, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 366, success, outsize: 120
+unique: 368, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 368, success, outsize: 80
+unique: 370, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 370, success, outsize: 16
+unique: 372, opcode: RELEASEDIR (29), nodeid: 294, insize: 64, pid: 0
+   unique: 372, success, outsize: 16
+unique: 374, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 374, success, outsize: 144
+unique: 376, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is a file
+getfile 0000000000000127
+getfile 0000000000000127 -> sz 3
+   unique: 376, success, outsize: 144
+unique: 378, opcode: UNLINK (10), nodeid: 294, insize: 43, pid: 230
+isfile: 295 is not a dir
+   unique: 378, success, outsize: 16
+unique: 380, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 380, success, outsize: 144
+unique: 382, opcode: OPENDIR (27), nodeid: 294, insize: 48, pid: 230
+   unique: 382, success, outsize: 32
+unique: 384, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 384, success, outsize: 120
+unique: 386, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 386, success, outsize: 48
+unique: 388, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 388, success, outsize: 16
+unique: 390, opcode: RELEASEDIR (29), nodeid: 294, insize: 64, pid: 0
+   unique: 390, success, outsize: 16
+unique: 392, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 392, success, outsize: 144
+unique: 394, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 296 is a file
+getfile 0000000000000128
+getfile 0000000000000128 -> sz 3
+   unique: 394, success, outsize: 144
+unique: 396, opcode: UNLINK (10), nodeid: 294, insize: 43, pid: 230
+isfile: 296 is not a dir
+   unique: 396, success, outsize: 16
+unique: 398, opcode: FORGET (2), nodeid: 296, insize: 48, pid: 0
+unique: 400, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 400, success, outsize: 144
+unique: 402, opcode: OPENDIR (27), nodeid: 294, insize: 48, pid: 230
+   unique: 402, success, outsize: 32
+unique: 404, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 404, success, outsize: 120
+unique: 406, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 406, success, outsize: 16
+unique: 408, opcode: RELEASEDIR (29), nodeid: 294, insize: 64, pid: 0
+   unique: 408, success, outsize: 16
+unique: 410, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 410, success, outsize: 144
+unique: 412, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 412, error: -2 (No such file or directory), outsize: 16
+unique: 414, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 306 is a file
+getfile 0000000000000132
+getfile 0000000000000132 -> sz 0
+   unique: 414, success, outsize: 160
+OK: create returns.
+unique: 416, opcode: WRITE (16), nodeid: 306, insize: 84, pid: 230
+   unique: 416, success, outsize: 24
+unique: 418, opcode: RELEASE (18), nodeid: 306, insize: 64, pid: 0
+   unique: 418, success, outsize: 16
+unique: 420, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 420, success, outsize: 144
+unique: 422, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 422, error: -2 (No such file or directory), outsize: 16
+unique: 424, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 307 is a file
+getfile 0000000000000133
+getfile 0000000000000133 -> sz 0
+   unique: 424, success, outsize: 160
+OK: create returns.
+unique: 426, opcode: WRITE (16), nodeid: 307, insize: 84, pid: 230
+   unique: 426, success, outsize: 24
+unique: 428, opcode: RELEASE (18), nodeid: 307, insize: 64, pid: 0
+   unique: 428, success, outsize: 16
+unique: 430, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 430, success, outsize: 144
+unique: 432, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 432, error: -2 (No such file or directory), outsize: 16
+unique: 434, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 308 is a file
+getfile 0000000000000134
+getfile 0000000000000134 -> sz 0
+   unique: 434, success, outsize: 160
+OK: create returns.
+unique: 436, opcode: WRITE (16), nodeid: 308, insize: 84, pid: 230
+   unique: 436, success, outsize: 24
+unique: 438, opcode: RELEASE (18), nodeid: 308, insize: 64, pid: 0
+   unique: 438, success, outsize: 16
+unique: 440, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 440, success, outsize: 144
+unique: 442, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 442, error: -2 (No such file or directory), outsize: 16
+unique: 444, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 309 is a file
+getfile 0000000000000135
+getfile 0000000000000135 -> sz 0
+   unique: 444, success, outsize: 160
+OK: create returns.
+unique: 446, opcode: WRITE (16), nodeid: 309, insize: 84, pid: 230
+   unique: 446, success, outsize: 24
+unique: 448, opcode: RELEASE (18), nodeid: 309, insize: 64, pid: 0
+   unique: 448, success, outsize: 16
+unique: 450, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 450, success, outsize: 144
+unique: 452, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 452, error: -2 (No such file or directory), outsize: 16
+unique: 454, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 310 is a file
+getfile 0000000000000136
+getfile 0000000000000136 -> sz 0
+   unique: 454, success, outsize: 160
+OK: create returns.
+unique: 456, opcode: WRITE (16), nodeid: 310, insize: 84, pid: 230
+   unique: 456, success, outsize: 24
+unique: 458, opcode: RELEASE (18), nodeid: 310, insize: 64, pid: 0
+   unique: 458, success, outsize: 16
+unique: 460, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 460, success, outsize: 144
+unique: 462, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 462, error: -2 (No such file or directory), outsize: 16
+unique: 464, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 311 is a file
+getfile 0000000000000137
+getfile 0000000000000137 -> sz 0
+   unique: 464, success, outsize: 160
+OK: create returns.
+unique: 466, opcode: WRITE (16), nodeid: 311, insize: 84, pid: 230
+   unique: 466, success, outsize: 24
+unique: 468, opcode: RELEASE (18), nodeid: 311, insize: 64, pid: 0
+   unique: 468, success, outsize: 16
+unique: 470, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 470, success, outsize: 144
+unique: 472, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 472, error: -2 (No such file or directory), outsize: 16
+unique: 474, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 312 is a file
+getfile 0000000000000138
+getfile 0000000000000138 -> sz 0
+   unique: 474, success, outsize: 160
+OK: create returns.
+unique: 476, opcode: WRITE (16), nodeid: 312, insize: 84, pid: 230
+   unique: 476, success, outsize: 24
+unique: 478, opcode: RELEASE (18), nodeid: 312, insize: 64, pid: 0
+   unique: 478, success, outsize: 16
+unique: 480, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 480, success, outsize: 144
+unique: 482, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 482, error: -2 (No such file or directory), outsize: 16
+unique: 484, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 313 is a file
+getfile 0000000000000139
+getfile 0000000000000139 -> sz 0
+   unique: 484, success, outsize: 160
+OK: create returns.
+unique: 486, opcode: WRITE (16), nodeid: 313, insize: 84, pid: 230
+   unique: 486, success, outsize: 24
+unique: 488, opcode: RELEASE (18), nodeid: 313, insize: 64, pid: 0
+   unique: 488, success, outsize: 16
+unique: 490, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 490, success, outsize: 144
+unique: 492, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 492, error: -2 (No such file or directory), outsize: 16
+unique: 494, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 314 is a file
+getfile 000000000000013a
+getfile 000000000000013a -> sz 0
+   unique: 494, success, outsize: 160
+OK: create returns.
+unique: 496, opcode: WRITE (16), nodeid: 314, insize: 84, pid: 230
+   unique: 496, success, outsize: 24
+unique: 498, opcode: RELEASE (18), nodeid: 314, insize: 64, pid: 0
+   unique: 498, success, outsize: 16
+unique: 500, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 500, success, outsize: 144
+unique: 502, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+   unique: 502, error: -2 (No such file or directory), outsize: 16
+unique: 504, opcode: CREATE (35), nodeid: 294, insize: 61, pid: 230
+isfile: 315 is a file
+getfile 000000000000013b
+getfile 000000000000013b -> sz 0
+   unique: 504, success, outsize: 160
+OK: create returns.
+unique: 506, opcode: WRITE (16), nodeid: 315, insize: 84, pid: 230
+   unique: 506, success, outsize: 24
+unique: 508, opcode: RELEASE (18), nodeid: 315, insize: 64, pid: 0
+   unique: 508, success, outsize: 16
+unique: 510, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 510, success, outsize: 144
+unique: 512, opcode: OPENDIR (27), nodeid: 294, insize: 48, pid: 230
+   unique: 512, success, outsize: 32
+unique: 514, opcode: GETATTR (3), nodeid: 294, insize: 56, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 514, success, outsize: 120
+unique: 516, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 516, success, outsize: 656
+unique: 518, opcode: READDIR (28), nodeid: 294, insize: 80, pid: 230
+fuseserver_readdir
+isfile: 294 is a dir
+   unique: 518, success, outsize: 16
+unique: 520, opcode: RELEASEDIR (29), nodeid: 294, insize: 64, pid: 0
+   unique: 520, success, outsize: 16
+unique: 522, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 522, success, outsize: 144
+unique: 524, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 306 is a file
+getfile 0000000000000132
+getfile 0000000000000132 -> sz 4
+   unique: 524, success, outsize: 144
+unique: 526, opcode: OPEN (14), nodeid: 306, insize: 48, pid: 230
+   unique: 526, success, outsize: 32
+unique: 528, opcode: READ (15), nodeid: 306, insize: 80, pid: 230
+   unique: 528, success, outsize: 20
+unique: 530, opcode: RELEASE (18), nodeid: 306, insize: 64, pid: 0
+   unique: 530, success, outsize: 16
+unique: 532, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 532, success, outsize: 144
+unique: 534, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 307 is a file
+getfile 0000000000000133
+getfile 0000000000000133 -> sz 4
+   unique: 534, success, outsize: 144
+unique: 536, opcode: OPEN (14), nodeid: 307, insize: 48, pid: 230
+   unique: 536, success, outsize: 32
+unique: 538, opcode: READ (15), nodeid: 307, insize: 80, pid: 230
+   unique: 538, success, outsize: 20
+unique: 540, opcode: RELEASE (18), nodeid: 307, insize: 64, pid: 0
+   unique: 540, success, outsize: 16
+unique: 542, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 542, success, outsize: 144
+unique: 544, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 308 is a file
+getfile 0000000000000134
+getfile 0000000000000134 -> sz 4
+   unique: 544, success, outsize: 144
+unique: 546, opcode: OPEN (14), nodeid: 308, insize: 48, pid: 230
+   unique: 546, success, outsize: 32
+unique: 548, opcode: READ (15), nodeid: 308, insize: 80, pid: 230
+   unique: 548, success, outsize: 20
+unique: 550, opcode: RELEASE (18), nodeid: 308, insize: 64, pid: 0
+   unique: 550, success, outsize: 16
+unique: 552, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 552, success, outsize: 144
+unique: 554, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 309 is a file
+getfile 0000000000000135
+getfile 0000000000000135 -> sz 4
+   unique: 554, success, outsize: 144
+unique: 556, opcode: OPEN (14), nodeid: 309, insize: 48, pid: 230
+   unique: 556, success, outsize: 32
+unique: 558, opcode: READ (15), nodeid: 309, insize: 80, pid: 230
+   unique: 558, success, outsize: 20
+unique: 560, opcode: RELEASE (18), nodeid: 309, insize: 64, pid: 0
+   unique: 560, success, outsize: 16
+unique: 562, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 562, success, outsize: 144
+unique: 564, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 310 is a file
+getfile 0000000000000136
+getfile 0000000000000136 -> sz 4
+   unique: 564, success, outsize: 144
+unique: 566, opcode: OPEN (14), nodeid: 310, insize: 48, pid: 230
+   unique: 566, success, outsize: 32
+unique: 568, opcode: READ (15), nodeid: 310, insize: 80, pid: 230
+   unique: 568, success, outsize: 20
+unique: 570, opcode: RELEASE (18), nodeid: 310, insize: 64, pid: 0
+   unique: 570, success, outsize: 16
+unique: 572, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 572, success, outsize: 144
+unique: 574, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 311 is a file
+getfile 0000000000000137
+getfile 0000000000000137 -> sz 4
+   unique: 574, success, outsize: 144
+unique: 576, opcode: OPEN (14), nodeid: 311, insize: 48, pid: 230
+   unique: 576, success, outsize: 32
+unique: 578, opcode: READ (15), nodeid: 311, insize: 80, pid: 230
+   unique: 578, success, outsize: 20
+unique: 580, opcode: RELEASE (18), nodeid: 311, insize: 64, pid: 0
+   unique: 580, success, outsize: 16
+unique: 582, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 582, success, outsize: 144
+unique: 584, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 312 is a file
+getfile 0000000000000138
+getfile 0000000000000138 -> sz 4
+   unique: 584, success, outsize: 144
+unique: 586, opcode: OPEN (14), nodeid: 312, insize: 48, pid: 230
+   unique: 586, success, outsize: 32
+unique: 588, opcode: READ (15), nodeid: 312, insize: 80, pid: 230
+   unique: 588, success, outsize: 20
+unique: 590, opcode: RELEASE (18), nodeid: 312, insize: 64, pid: 0
+   unique: 590, success, outsize: 16
+unique: 592, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 592, success, outsize: 144
+unique: 594, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 313 is a file
+getfile 0000000000000139
+getfile 0000000000000139 -> sz 4
+   unique: 594, success, outsize: 144
+unique: 596, opcode: OPEN (14), nodeid: 313, insize: 48, pid: 230
+   unique: 596, success, outsize: 32
+unique: 598, opcode: READ (15), nodeid: 313, insize: 80, pid: 230
+   unique: 598, success, outsize: 20
+unique: 600, opcode: RELEASE (18), nodeid: 313, insize: 64, pid: 0
+   unique: 600, success, outsize: 16
+unique: 602, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 602, success, outsize: 144
+unique: 604, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 314 is a file
+getfile 000000000000013a
+getfile 000000000000013a -> sz 4
+   unique: 604, success, outsize: 144
+unique: 606, opcode: OPEN (14), nodeid: 314, insize: 48, pid: 230
+   unique: 606, success, outsize: 32
+unique: 608, opcode: READ (15), nodeid: 314, insize: 80, pid: 230
+   unique: 608, success, outsize: 20
+unique: 610, opcode: RELEASE (18), nodeid: 314, insize: 64, pid: 0
+   unique: 610, success, outsize: 16
+unique: 612, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 612, success, outsize: 144
+unique: 614, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 315 is a file
+getfile 000000000000013b
+getfile 000000000000013b -> sz 4
+   unique: 614, success, outsize: 144
+unique: 616, opcode: OPEN (14), nodeid: 315, insize: 48, pid: 230
+   unique: 616, success, outsize: 32
+unique: 618, opcode: READ (15), nodeid: 315, insize: 80, pid: 230
+   unique: 618, success, outsize: 20
+unique: 620, opcode: RELEASE (18), nodeid: 315, insize: 64, pid: 0
+   unique: 620, success, outsize: 16
+unique: 622, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 622, success, outsize: 144
+unique: 624, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 296 is a file
+getfile 0000000000000128
+getfile 0000000000000128 -> sz 4
+   unique: 624, success, outsize: 144
+unique: 626, opcode: OPEN (14), nodeid: 296, insize: 48, pid: 230
+   unique: 626, success, outsize: 32
+unique: 628, opcode: READ (15), nodeid: 296, insize: 80, pid: 230
+   unique: 628, success, outsize: 20
+unique: 630, opcode: RELEASE (18), nodeid: 296, insize: 64, pid: 0
+   unique: 630, success, outsize: 16
+unique: 632, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 632, success, outsize: 144
+unique: 634, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 297 is a file
+getfile 0000000000000129
+getfile 0000000000000129 -> sz 4
+   unique: 634, success, outsize: 144
+unique: 636, opcode: OPEN (14), nodeid: 297, insize: 48, pid: 230
+   unique: 636, success, outsize: 32
+unique: 638, opcode: READ (15), nodeid: 297, insize: 80, pid: 230
+   unique: 638, success, outsize: 20
+unique: 640, opcode: RELEASE (18), nodeid: 297, insize: 64, pid: 0
+   unique: 640, success, outsize: 16
+unique: 642, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 642, success, outsize: 144
+unique: 644, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 298 is a file
+getfile 000000000000012a
+getfile 000000000000012a -> sz 4
+   unique: 644, success, outsize: 144
+unique: 646, opcode: OPEN (14), nodeid: 298, insize: 48, pid: 230
+   unique: 646, success, outsize: 32
+unique: 648, opcode: READ (15), nodeid: 298, insize: 80, pid: 230
+   unique: 648, success, outsize: 20
+unique: 650, opcode: RELEASE (18), nodeid: 298, insize: 64, pid: 0
+   unique: 650, success, outsize: 16
+unique: 652, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 652, success, outsize: 144
+unique: 654, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 299 is a file
+getfile 000000000000012b
+getfile 000000000000012b -> sz 4
+   unique: 654, success, outsize: 144
+unique: 656, opcode: OPEN (14), nodeid: 299, insize: 48, pid: 230
+   unique: 656, success, outsize: 32
+unique: 658, opcode: READ (15), nodeid: 299, insize: 80, pid: 230
+   unique: 658, success, outsize: 20
+unique: 660, opcode: RELEASE (18), nodeid: 299, insize: 64, pid: 0
+   unique: 660, success, outsize: 16
+unique: 662, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 662, success, outsize: 144
+unique: 664, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 300 is a file
+getfile 000000000000012c
+getfile 000000000000012c -> sz 4
+   unique: 664, success, outsize: 144
+unique: 666, opcode: OPEN (14), nodeid: 300, insize: 48, pid: 230
+   unique: 666, success, outsize: 32
+unique: 668, opcode: READ (15), nodeid: 300, insize: 80, pid: 230
+   unique: 668, success, outsize: 20
+unique: 670, opcode: RELEASE (18), nodeid: 300, insize: 64, pid: 0
+   unique: 670, success, outsize: 16
+unique: 672, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 672, success, outsize: 144
+unique: 674, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 301 is a file
+getfile 000000000000012d
+getfile 000000000000012d -> sz 4
+   unique: 674, success, outsize: 144
+unique: 676, opcode: OPEN (14), nodeid: 301, insize: 48, pid: 230
+   unique: 676, success, outsize: 32
+unique: 678, opcode: READ (15), nodeid: 301, insize: 80, pid: 230
+   unique: 678, success, outsize: 20
+unique: 680, opcode: RELEASE (18), nodeid: 301, insize: 64, pid: 0
+   unique: 680, success, outsize: 16
+unique: 682, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 682, success, outsize: 144
+unique: 684, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 302 is a file
+getfile 000000000000012e
+getfile 000000000000012e -> sz 4
+   unique: 684, success, outsize: 144
+unique: 686, opcode: OPEN (14), nodeid: 302, insize: 48, pid: 230
+   unique: 686, success, outsize: 32
+unique: 688, opcode: READ (15), nodeid: 302, insize: 80, pid: 230
+   unique: 688, success, outsize: 20
+unique: 690, opcode: RELEASE (18), nodeid: 302, insize: 64, pid: 0
+   unique: 690, success, outsize: 16
+unique: 692, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 692, success, outsize: 144
+unique: 694, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 303 is a file
+getfile 000000000000012f
+getfile 000000000000012f -> sz 4
+   unique: 694, success, outsize: 144
+unique: 696, opcode: OPEN (14), nodeid: 303, insize: 48, pid: 230
+   unique: 696, success, outsize: 32
+unique: 698, opcode: READ (15), nodeid: 303, insize: 80, pid: 230
+   unique: 698, success, outsize: 20
+unique: 700, opcode: RELEASE (18), nodeid: 303, insize: 64, pid: 0
+   unique: 700, success, outsize: 16
+unique: 702, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 702, success, outsize: 144
+unique: 704, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 304 is a file
+getfile 0000000000000130
+getfile 0000000000000130 -> sz 4
+   unique: 704, success, outsize: 144
+unique: 706, opcode: OPEN (14), nodeid: 304, insize: 48, pid: 230
+   unique: 706, success, outsize: 32
+unique: 708, opcode: READ (15), nodeid: 304, insize: 80, pid: 230
+   unique: 708, success, outsize: 20
+unique: 710, opcode: RELEASE (18), nodeid: 304, insize: 64, pid: 0
+   unique: 710, success, outsize: 16
+unique: 712, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 712, success, outsize: 144
+unique: 714, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 305 is a file
+getfile 0000000000000131
+getfile 0000000000000131 -> sz 4
+   unique: 714, success, outsize: 144
+unique: 716, opcode: OPEN (14), nodeid: 305, insize: 48, pid: 230
+   unique: 716, success, outsize: 32
+unique: 718, opcode: READ (15), nodeid: 305, insize: 80, pid: 230
+   unique: 718, success, outsize: 20
+unique: 720, opcode: RELEASE (18), nodeid: 305, insize: 64, pid: 0
+   unique: 720, success, outsize: 16
+unique: 722, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 722, success, outsize: 144
+unique: 724, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 306 is a file
+getfile 0000000000000132
+getfile 0000000000000132 -> sz 4
+   unique: 724, success, outsize: 144
+unique: 726, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 306 is not a dir
+   unique: 726, success, outsize: 16
+unique: 728, opcode: FORGET (2), nodeid: 306, insize: 48, pid: 0
+unique: 730, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 730, success, outsize: 144
+unique: 732, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 307 is a file
+getfile 0000000000000133
+getfile 0000000000000133 -> sz 4
+   unique: 732, success, outsize: 144
+unique: 734, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 307 is not a dir
+   unique: 734, success, outsize: 16
+unique: 736, opcode: FORGET (2), nodeid: 307, insize: 48, pid: 0
+unique: 738, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 738, success, outsize: 144
+unique: 740, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 308 is a file
+getfile 0000000000000134
+getfile 0000000000000134 -> sz 4
+   unique: 740, success, outsize: 144
+unique: 742, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 308 is not a dir
+   unique: 742, success, outsize: 16
+unique: 744, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 744, success, outsize: 144
+unique: 746, opcode: FORGET (2), nodeid: 308, insize: 48, pid: 0
+unique: 748, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 309 is a file
+getfile 0000000000000135
+getfile 0000000000000135 -> sz 4
+   unique: 748, success, outsize: 144
+unique: 750, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 309 is not a dir
+   unique: 750, success, outsize: 16
+unique: 752, opcode: FORGET (2), nodeid: 309, insize: 48, pid: 0
+unique: 754, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 754, success, outsize: 144
+unique: 756, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 310 is a file
+getfile 0000000000000136
+getfile 0000000000000136 -> sz 4
+   unique: 756, success, outsize: 144
+unique: 758, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 310 is not a dir
+   unique: 758, success, outsize: 16
+unique: 760, opcode: FORGET (2), nodeid: 310, insize: 48, pid: 0
+unique: 762, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 762, success, outsize: 144
+unique: 764, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 311 is a file
+getfile 0000000000000137
+getfile 0000000000000137 -> sz 4
+   unique: 764, success, outsize: 144
+unique: 766, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 311 is not a dir
+   unique: 766, success, outsize: 16
+unique: 768, opcode: FORGET (2), nodeid: 311, insize: 48, pid: 0
+unique: 770, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 770, success, outsize: 144
+unique: 772, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 312 is a file
+getfile 0000000000000138
+getfile 0000000000000138 -> sz 4
+   unique: 772, success, outsize: 144
+unique: 774, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 312 is not a dir
+   unique: 774, success, outsize: 16
+unique: 776, opcode: FORGET (2), nodeid: 312, insize: 48, pid: 0
+unique: 778, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 778, success, outsize: 144
+unique: 780, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 313 is a file
+getfile 0000000000000139
+getfile 0000000000000139 -> sz 4
+   unique: 780, success, outsize: 144
+unique: 782, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 313 is not a dir
+   unique: 782, success, outsize: 16
+unique: 784, opcode: FORGET (2), nodeid: 313, insize: 48, pid: 0
+unique: 786, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 786, success, outsize: 144
+unique: 788, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 314 is a file
+getfile 000000000000013a
+getfile 000000000000013a -> sz 4
+   unique: 788, success, outsize: 144
+unique: 790, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 314 is not a dir
+   unique: 790, success, outsize: 16
+unique: 792, opcode: FORGET (2), nodeid: 314, insize: 48, pid: 0
+unique: 794, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 794, success, outsize: 144
+unique: 796, opcode: LOOKUP (1), nodeid: 294, insize: 45, pid: 230
+isfile: 315 is a file
+getfile 000000000000013b
+getfile 000000000000013b -> sz 4
+   unique: 796, success, outsize: 144
+unique: 798, opcode: UNLINK (10), nodeid: 294, insize: 45, pid: 230
+isfile: 315 is not a dir
+   unique: 798, success, outsize: 16
+unique: 800, opcode: FORGET (2), nodeid: 315, insize: 48, pid: 0
+unique: 802, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 230
+isfile: 294 is a dir
+isfile: 294 is a dir
+getdir 0000000000000126
+   unique: 802, success, outsize: 144
+unique: 804, opcode: LOOKUP (1), nodeid: 294, insize: 43, pid: 230
+isfile: 315 is a file
+getfile 000000000000013b
+getfile 000000000000013b -> sz 20000
+   unique: 804, success, outsize: 144
+unique: 806, opcode: OPEN (14), nodeid: 315, insize: 48, pid: 230
+   unique: 806, success, outsize: 32
+unique: 808, opcode: GETATTR (3), nodeid: 315, insize: 56, pid: 230
+isfile: 315 is a file
+getfile 000000000000013b
+getfile 000000000000013b -> sz 20000
+   unique: 808, success, outsize: 120
+unique: 810, opcode: READ (15), nodeid: 315, insize: 80, pid: 230
+   unique: 810, success, outsize: 20016
+unique: 812, opcode: RELEASE (18), nodeid: 315, insize: 64, pid: 0
+   unique: 812, success, outsize: 16
+unique: 814, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 814, success, outsize: 144
+unique: 816, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 816, success, outsize: 144
+unique: 818, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 818, error: -2 (No such file or directory), outsize: 16
+unique: 820, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 317 is a file
+getfile 000000000000013d
+getfile 000000000000013d -> sz 0
+   unique: 820, success, outsize: 160
+OK: create returns.
+unique: 822, opcode: WRITE (16), nodeid: 317, insize: 84, pid: 246
+   unique: 822, success, outsize: 24
+unique: 824, opcode: RELEASE (18), nodeid: 317, insize: 64, pid: 0
+   unique: 824, success, outsize: 16
+unique: 826, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 826, success, outsize: 144
+unique: 828, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 828, error: -2 (No such file or directory), outsize: 16
+unique: 830, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 319 is a file
+getfile 000000000000013f
+getfile 000000000000013f -> sz 0
+   unique: 830, success, outsize: 160
+OK: create returns.
+unique: 832, opcode: WRITE (16), nodeid: 319, insize: 84, pid: 246
+   unique: 832, success, outsize: 24
+unique: 834, opcode: RELEASE (18), nodeid: 319, insize: 64, pid: 0
+   unique: 834, success, outsize: 16
+unique: 836, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 836, success, outsize: 144
+unique: 838, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 838, error: -2 (No such file or directory), outsize: 16
+unique: 840, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 321 is a file
+getfile 0000000000000141
+getfile 0000000000000141 -> sz 0
+   unique: 840, success, outsize: 160
+OK: create returns.
+unique: 842, opcode: WRITE (16), nodeid: 321, insize: 84, pid: 246
+   unique: 842, success, outsize: 24
+unique: 844, opcode: RELEASE (18), nodeid: 321, insize: 64, pid: 0
+   unique: 844, success, outsize: 16
+unique: 846, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 846, success, outsize: 144
+unique: 848, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 848, error: -2 (No such file or directory), outsize: 16
+unique: 850, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 323 is a file
+getfile 0000000000000143
+getfile 0000000000000143 -> sz 0
+   unique: 850, success, outsize: 160
+OK: create returns.
+unique: 852, opcode: WRITE (16), nodeid: 323, insize: 84, pid: 246
+   unique: 852, success, outsize: 24
+unique: 854, opcode: RELEASE (18), nodeid: 323, insize: 64, pid: 0
+   unique: 854, success, outsize: 16
+unique: 856, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 856, success, outsize: 144
+unique: 858, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 858, error: -2 (No such file or directory), outsize: 16
+unique: 860, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 325 is a file
+getfile 0000000000000145
+getfile 0000000000000145 -> sz 0
+   unique: 860, success, outsize: 160
+OK: create returns.
+unique: 862, opcode: WRITE (16), nodeid: 325, insize: 84, pid: 246
+   unique: 862, success, outsize: 24
+unique: 864, opcode: RELEASE (18), nodeid: 325, insize: 64, pid: 0
+   unique: 864, success, outsize: 16
+unique: 866, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 866, success, outsize: 144
+unique: 868, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 868, error: -2 (No such file or directory), outsize: 16
+unique: 870, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 327 is a file
+getfile 0000000000000147
+getfile 0000000000000147 -> sz 0
+   unique: 870, success, outsize: 160
+OK: create returns.
+unique: 872, opcode: WRITE (16), nodeid: 327, insize: 84, pid: 246
+   unique: 872, success, outsize: 24
+unique: 874, opcode: RELEASE (18), nodeid: 327, insize: 64, pid: 0
+   unique: 874, success, outsize: 16
+unique: 876, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 876, success, outsize: 144
+unique: 878, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 878, error: -2 (No such file or directory), outsize: 16
+unique: 880, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 329 is a file
+getfile 0000000000000149
+getfile 0000000000000149 -> sz 0
+   unique: 880, success, outsize: 160
+OK: create returns.
+unique: 882, opcode: WRITE (16), nodeid: 329, insize: 84, pid: 246
+   unique: 882, success, outsize: 24
+unique: 884, opcode: RELEASE (18), nodeid: 329, insize: 64, pid: 0
+   unique: 884, success, outsize: 16
+unique: 886, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 886, success, outsize: 144
+unique: 888, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 888, error: -2 (No such file or directory), outsize: 16
+unique: 890, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 331 is a file
+getfile 000000000000014b
+getfile 000000000000014b -> sz 0
+   unique: 890, success, outsize: 160
+OK: create returns.
+unique: 892, opcode: WRITE (16), nodeid: 331, insize: 84, pid: 246
+   unique: 892, success, outsize: 24
+unique: 894, opcode: RELEASE (18), nodeid: 331, insize: 64, pid: 0
+   unique: 894, success, outsize: 16
+unique: 896, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 896, success, outsize: 144
+unique: 898, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 898, error: -2 (No such file or directory), outsize: 16
+unique: 900, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 333 is a file
+getfile 000000000000014d
+getfile 000000000000014d -> sz 0
+   unique: 900, success, outsize: 160
+OK: create returns.
+unique: 902, opcode: WRITE (16), nodeid: 333, insize: 84, pid: 246
+   unique: 902, success, outsize: 24
+unique: 904, opcode: RELEASE (18), nodeid: 333, insize: 64, pid: 0
+   unique: 904, success, outsize: 16
+unique: 906, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 246
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 906, success, outsize: 144
+unique: 908, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 246
+   unique: 908, error: -2 (No such file or directory), outsize: 16
+unique: 910, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 246
+isfile: 335 is a file
+getfile 000000000000014f
+getfile 000000000000014f -> sz 0
+   unique: 910, success, outsize: 160
+OK: create returns.
+unique: 912, opcode: WRITE (16), nodeid: 335, insize: 84, pid: 246
+   unique: 912, success, outsize: 24
+unique: 914, opcode: RELEASE (18), nodeid: 335, insize: 64, pid: 0
+   unique: 914, success, outsize: 16
+unique: 916, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 916, success, outsize: 144
+unique: 918, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 316 is a file
+getfile 000000000000013c
+getfile 000000000000013c -> sz 4
+   unique: 918, success, outsize: 144
+unique: 920, opcode: OPEN (14), nodeid: 316, insize: 48, pid: 244
+   unique: 920, success, outsize: 32
+unique: 922, opcode: READ (15), nodeid: 316, insize: 80, pid: 244
+   unique: 922, success, outsize: 20
+unique: 924, opcode: RELEASE (18), nodeid: 316, insize: 64, pid: 0
+   unique: 924, success, outsize: 16
+unique: 926, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 926, success, outsize: 144
+unique: 928, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 318 is a file
+getfile 000000000000013e
+getfile 000000000000013e -> sz 4
+   unique: 928, success, outsize: 144
+unique: 930, opcode: OPEN (14), nodeid: 318, insize: 48, pid: 244
+   unique: 930, success, outsize: 32
+unique: 932, opcode: READ (15), nodeid: 318, insize: 80, pid: 244
+   unique: 932, success, outsize: 20
+unique: 934, opcode: RELEASE (18), nodeid: 318, insize: 64, pid: 0
+   unique: 934, success, outsize: 16
+unique: 936, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 936, success, outsize: 144
+unique: 938, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 320 is a file
+getfile 0000000000000140
+getfile 0000000000000140 -> sz 4
+   unique: 938, success, outsize: 144
+unique: 940, opcode: OPEN (14), nodeid: 320, insize: 48, pid: 244
+   unique: 940, success, outsize: 32
+unique: 942, opcode: READ (15), nodeid: 320, insize: 80, pid: 244
+   unique: 942, success, outsize: 20
+unique: 944, opcode: RELEASE (18), nodeid: 320, insize: 64, pid: 0
+   unique: 944, success, outsize: 16
+unique: 946, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 946, success, outsize: 144
+unique: 948, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 322 is a file
+getfile 0000000000000142
+getfile 0000000000000142 -> sz 4
+   unique: 948, success, outsize: 144
+unique: 950, opcode: OPEN (14), nodeid: 322, insize: 48, pid: 244
+   unique: 950, success, outsize: 32
+unique: 952, opcode: READ (15), nodeid: 322, insize: 80, pid: 244
+   unique: 952, success, outsize: 20
+unique: 954, opcode: RELEASE (18), nodeid: 322, insize: 64, pid: 0
+   unique: 954, success, outsize: 16
+unique: 956, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 956, success, outsize: 144
+unique: 958, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 324 is a file
+getfile 0000000000000144
+getfile 0000000000000144 -> sz 4
+   unique: 958, success, outsize: 144
+unique: 960, opcode: OPEN (14), nodeid: 324, insize: 48, pid: 244
+   unique: 960, success, outsize: 32
+unique: 962, opcode: READ (15), nodeid: 324, insize: 80, pid: 244
+   unique: 962, success, outsize: 20
+unique: 964, opcode: RELEASE (18), nodeid: 324, insize: 64, pid: 0
+   unique: 964, success, outsize: 16
+unique: 966, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 966, success, outsize: 144
+unique: 968, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 326 is a file
+getfile 0000000000000146
+getfile 0000000000000146 -> sz 4
+   unique: 968, success, outsize: 144
+unique: 970, opcode: OPEN (14), nodeid: 326, insize: 48, pid: 244
+   unique: 970, success, outsize: 32
+unique: 972, opcode: READ (15), nodeid: 326, insize: 80, pid: 244
+   unique: 972, success, outsize: 20
+unique: 974, opcode: RELEASE (18), nodeid: 326, insize: 64, pid: 0
+   unique: 974, success, outsize: 16
+unique: 976, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 976, success, outsize: 144
+unique: 978, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 328 is a file
+getfile 0000000000000148
+getfile 0000000000000148 -> sz 4
+   unique: 978, success, outsize: 144
+unique: 980, opcode: OPEN (14), nodeid: 328, insize: 48, pid: 244
+   unique: 980, success, outsize: 32
+unique: 982, opcode: READ (15), nodeid: 328, insize: 80, pid: 244
+   unique: 982, success, outsize: 20
+unique: 984, opcode: RELEASE (18), nodeid: 328, insize: 64, pid: 0
+   unique: 984, success, outsize: 16
+unique: 986, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 986, success, outsize: 144
+unique: 988, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 330 is a file
+getfile 000000000000014a
+getfile 000000000000014a -> sz 4
+   unique: 988, success, outsize: 144
+unique: 990, opcode: OPEN (14), nodeid: 330, insize: 48, pid: 244
+   unique: 990, success, outsize: 32
+unique: 992, opcode: READ (15), nodeid: 330, insize: 80, pid: 244
+   unique: 992, success, outsize: 20
+unique: 994, opcode: RELEASE (18), nodeid: 330, insize: 64, pid: 0
+   unique: 994, success, outsize: 16
+unique: 996, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 996, success, outsize: 144
+unique: 998, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 332 is a file
+getfile 000000000000014c
+getfile 000000000000014c -> sz 4
+   unique: 998, success, outsize: 144
+unique: 1000, opcode: OPEN (14), nodeid: 332, insize: 48, pid: 244
+   unique: 1000, success, outsize: 32
+unique: 1002, opcode: READ (15), nodeid: 332, insize: 80, pid: 244
+   unique: 1002, success, outsize: 20
+unique: 1004, opcode: RELEASE (18), nodeid: 332, insize: 64, pid: 0
+   unique: 1004, success, outsize: 16
+unique: 1006, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1006, success, outsize: 144
+unique: 1008, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 334 is a file
+getfile 000000000000014e
+getfile 000000000000014e -> sz 4
+   unique: 1008, success, outsize: 144
+unique: 1010, opcode: OPEN (14), nodeid: 334, insize: 48, pid: 244
+   unique: 1010, success, outsize: 32
+unique: 1012, opcode: READ (15), nodeid: 334, insize: 80, pid: 244
+   unique: 1012, success, outsize: 20
+unique: 1014, opcode: RELEASE (18), nodeid: 334, insize: 64, pid: 0
+   unique: 1014, success, outsize: 16
+unique: 1016, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1016, success, outsize: 144
+unique: 1018, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1018, error: -2 (No such file or directory), outsize: 16
+unique: 1020, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 335 is a file
+getfile 000000000000014f
+getfile 000000000000014f -> sz 0
+   unique: 1020, success, outsize: 160
+OK: create returns.
+unique: 1022, opcode: WRITE (16), nodeid: 335, insize: 84, pid: 247
+   unique: 1022, success, outsize: 24
+unique: 1024, opcode: RELEASE (18), nodeid: 335, insize: 64, pid: 0
+   unique: 1024, success, outsize: 16
+unique: 1026, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1026, success, outsize: 144
+unique: 1028, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1028, error: -2 (No such file or directory), outsize: 16
+unique: 1030, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 336 is a file
+getfile 0000000000000150
+getfile 0000000000000150 -> sz 0
+   unique: 1030, success, outsize: 160
+OK: create returns.
+unique: 1032, opcode: WRITE (16), nodeid: 336, insize: 84, pid: 247
+   unique: 1032, success, outsize: 24
+unique: 1034, opcode: RELEASE (18), nodeid: 336, insize: 64, pid: 0
+   unique: 1034, success, outsize: 16
+unique: 1036, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1036, success, outsize: 144
+unique: 1038, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1038, error: -2 (No such file or directory), outsize: 16
+unique: 1040, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 337 is a file
+getfile 0000000000000151
+getfile 0000000000000151 -> sz 0
+   unique: 1040, success, outsize: 160
+OK: create returns.
+unique: 1042, opcode: WRITE (16), nodeid: 337, insize: 84, pid: 247
+   unique: 1042, success, outsize: 24
+unique: 1044, opcode: RELEASE (18), nodeid: 337, insize: 64, pid: 0
+   unique: 1044, success, outsize: 16
+unique: 1046, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1046, success, outsize: 144
+unique: 1048, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1048, error: -2 (No such file or directory), outsize: 16
+unique: 1050, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 338 is a file
+getfile 0000000000000152
+getfile 0000000000000152 -> sz 0
+   unique: 1050, success, outsize: 160
+OK: create returns.
+unique: 1052, opcode: WRITE (16), nodeid: 338, insize: 84, pid: 247
+   unique: 1052, success, outsize: 24
+unique: 1054, opcode: RELEASE (18), nodeid: 338, insize: 64, pid: 0
+   unique: 1054, success, outsize: 16
+unique: 1056, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1056, success, outsize: 144
+unique: 1058, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1058, error: -2 (No such file or directory), outsize: 16
+unique: 1060, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 339 is a file
+getfile 0000000000000153
+getfile 0000000000000153 -> sz 0
+   unique: 1060, success, outsize: 160
+OK: create returns.
+unique: 1062, opcode: WRITE (16), nodeid: 339, insize: 84, pid: 247
+   unique: 1062, success, outsize: 24
+unique: 1064, opcode: RELEASE (18), nodeid: 339, insize: 64, pid: 0
+   unique: 1064, success, outsize: 16
+unique: 1066, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1066, success, outsize: 144
+unique: 1068, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1068, error: -2 (No such file or directory), outsize: 16
+unique: 1070, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 340 is a file
+getfile 0000000000000154
+getfile 0000000000000154 -> sz 0
+   unique: 1070, success, outsize: 160
+OK: create returns.
+unique: 1072, opcode: WRITE (16), nodeid: 340, insize: 84, pid: 247
+   unique: 1072, success, outsize: 24
+unique: 1074, opcode: RELEASE (18), nodeid: 340, insize: 64, pid: 0
+   unique: 1074, success, outsize: 16
+unique: 1076, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1076, success, outsize: 144
+unique: 1078, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1078, error: -2 (No such file or directory), outsize: 16
+unique: 1080, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 341 is a file
+getfile 0000000000000155
+getfile 0000000000000155 -> sz 0
+   unique: 1080, success, outsize: 160
+OK: create returns.
+unique: 1082, opcode: WRITE (16), nodeid: 341, insize: 84, pid: 247
+   unique: 1082, success, outsize: 24
+unique: 1084, opcode: RELEASE (18), nodeid: 341, insize: 64, pid: 0
+   unique: 1084, success, outsize: 16
+unique: 1086, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1086, success, outsize: 144
+unique: 1088, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1088, error: -2 (No such file or directory), outsize: 16
+unique: 1090, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 342 is a file
+getfile 0000000000000156
+getfile 0000000000000156 -> sz 0
+   unique: 1090, success, outsize: 160
+OK: create returns.
+unique: 1092, opcode: WRITE (16), nodeid: 342, insize: 84, pid: 247
+   unique: 1092, success, outsize: 24
+unique: 1094, opcode: RELEASE (18), nodeid: 342, insize: 64, pid: 0
+   unique: 1094, success, outsize: 16
+unique: 1096, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1096, success, outsize: 144
+unique: 1098, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1098, error: -2 (No such file or directory), outsize: 16
+unique: 1100, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 343 is a file
+getfile 0000000000000157
+getfile 0000000000000157 -> sz 0
+   unique: 1100, success, outsize: 160
+OK: create returns.
+unique: 1102, opcode: WRITE (16), nodeid: 343, insize: 84, pid: 247
+   unique: 1102, success, outsize: 24
+unique: 1104, opcode: RELEASE (18), nodeid: 343, insize: 64, pid: 0
+   unique: 1104, success, outsize: 16
+unique: 1106, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 247
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1106, success, outsize: 144
+unique: 1108, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 247
+   unique: 1108, error: -2 (No such file or directory), outsize: 16
+unique: 1110, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 247
+isfile: 344 is a file
+getfile 0000000000000158
+getfile 0000000000000158 -> sz 0
+   unique: 1110, success, outsize: 160
+OK: create returns.
+unique: 1112, opcode: WRITE (16), nodeid: 344, insize: 84, pid: 247
+   unique: 1112, success, outsize: 24
+unique: 1114, opcode: RELEASE (18), nodeid: 344, insize: 64, pid: 0
+   unique: 1114, success, outsize: 16
+unique: 1116, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1116, success, outsize: 144
+unique: 1118, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 335 is a file
+getfile 000000000000014f
+getfile 000000000000014f -> sz 4
+   unique: 1118, success, outsize: 144
+unique: 1120, opcode: OPEN (14), nodeid: 335, insize: 48, pid: 244
+   unique: 1120, success, outsize: 32
+unique: 1122, opcode: READ (15), nodeid: 335, insize: 80, pid: 244
+   unique: 1122, success, outsize: 20
+unique: 1124, opcode: RELEASE (18), nodeid: 335, insize: 64, pid: 0
+   unique: 1124, success, outsize: 16
+unique: 1126, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1126, success, outsize: 144
+unique: 1128, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 336 is a file
+getfile 0000000000000150
+getfile 0000000000000150 -> sz 4
+   unique: 1128, success, outsize: 144
+unique: 1130, opcode: OPEN (14), nodeid: 336, insize: 48, pid: 244
+   unique: 1130, success, outsize: 32
+unique: 1132, opcode: READ (15), nodeid: 336, insize: 80, pid: 244
+   unique: 1132, success, outsize: 20
+unique: 1134, opcode: RELEASE (18), nodeid: 336, insize: 64, pid: 0
+   unique: 1134, success, outsize: 16
+unique: 1136, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1136, success, outsize: 144
+unique: 1138, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 337 is a file
+getfile 0000000000000151
+getfile 0000000000000151 -> sz 4
+   unique: 1138, success, outsize: 144
+unique: 1140, opcode: OPEN (14), nodeid: 337, insize: 48, pid: 244
+   unique: 1140, success, outsize: 32
+unique: 1142, opcode: READ (15), nodeid: 337, insize: 80, pid: 244
+   unique: 1142, success, outsize: 20
+unique: 1144, opcode: RELEASE (18), nodeid: 337, insize: 64, pid: 0
+   unique: 1144, success, outsize: 16
+unique: 1146, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1146, success, outsize: 144
+unique: 1148, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 338 is a file
+getfile 0000000000000152
+getfile 0000000000000152 -> sz 4
+   unique: 1148, success, outsize: 144
+unique: 1150, opcode: OPEN (14), nodeid: 338, insize: 48, pid: 244
+   unique: 1150, success, outsize: 32
+unique: 1152, opcode: READ (15), nodeid: 338, insize: 80, pid: 244
+   unique: 1152, success, outsize: 20
+unique: 1154, opcode: RELEASE (18), nodeid: 338, insize: 64, pid: 0
+   unique: 1154, success, outsize: 16
+unique: 1156, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1156, success, outsize: 144
+unique: 1158, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 339 is a file
+getfile 0000000000000153
+getfile 0000000000000153 -> sz 4
+   unique: 1158, success, outsize: 144
+unique: 1160, opcode: OPEN (14), nodeid: 339, insize: 48, pid: 244
+   unique: 1160, success, outsize: 32
+unique: 1162, opcode: READ (15), nodeid: 339, insize: 80, pid: 244
+   unique: 1162, success, outsize: 20
+unique: 1164, opcode: RELEASE (18), nodeid: 339, insize: 64, pid: 0
+   unique: 1164, success, outsize: 16
+unique: 1166, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1166, success, outsize: 144
+unique: 1168, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 340 is a file
+getfile 0000000000000154
+getfile 0000000000000154 -> sz 4
+   unique: 1168, success, outsize: 144
+unique: 1170, opcode: OPEN (14), nodeid: 340, insize: 48, pid: 244
+   unique: 1170, success, outsize: 32
+unique: 1172, opcode: READ (15), nodeid: 340, insize: 80, pid: 244
+   unique: 1172, success, outsize: 20
+unique: 1174, opcode: RELEASE (18), nodeid: 340, insize: 64, pid: 0
+   unique: 1174, success, outsize: 16
+unique: 1176, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1176, success, outsize: 144
+unique: 1178, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 341 is a file
+getfile 0000000000000155
+getfile 0000000000000155 -> sz 4
+   unique: 1178, success, outsize: 144
+unique: 1180, opcode: OPEN (14), nodeid: 341, insize: 48, pid: 244
+   unique: 1180, success, outsize: 32
+unique: 1182, opcode: READ (15), nodeid: 341, insize: 80, pid: 244
+   unique: 1182, success, outsize: 20
+unique: 1184, opcode: RELEASE (18), nodeid: 341, insize: 64, pid: 0
+   unique: 1184, success, outsize: 16
+unique: 1186, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1186, success, outsize: 144
+unique: 1188, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 342 is a file
+getfile 0000000000000156
+getfile 0000000000000156 -> sz 4
+   unique: 1188, success, outsize: 144
+unique: 1190, opcode: OPEN (14), nodeid: 342, insize: 48, pid: 244
+   unique: 1190, success, outsize: 32
+unique: 1192, opcode: READ (15), nodeid: 342, insize: 80, pid: 244
+   unique: 1192, success, outsize: 20
+unique: 1194, opcode: RELEASE (18), nodeid: 342, insize: 64, pid: 0
+   unique: 1194, success, outsize: 16
+unique: 1196, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1196, success, outsize: 144
+unique: 1198, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 343 is a file
+getfile 0000000000000157
+getfile 0000000000000157 -> sz 4
+   unique: 1198, success, outsize: 144
+unique: 1200, opcode: OPEN (14), nodeid: 343, insize: 48, pid: 244
+   unique: 1200, success, outsize: 32
+unique: 1202, opcode: READ (15), nodeid: 343, insize: 80, pid: 244
+   unique: 1202, success, outsize: 20
+unique: 1204, opcode: RELEASE (18), nodeid: 343, insize: 64, pid: 0
+   unique: 1204, success, outsize: 16
+unique: 1206, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1206, success, outsize: 144
+unique: 1208, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 344 is a file
+getfile 0000000000000158
+getfile 0000000000000158 -> sz 4
+   unique: 1208, success, outsize: 144
+unique: 1210, opcode: OPEN (14), nodeid: 344, insize: 48, pid: 244
+   unique: 1210, success, outsize: 32
+unique: 1212, opcode: READ (15), nodeid: 344, insize: 80, pid: 244
+   unique: 1212, success, outsize: 20
+unique: 1214, opcode: RELEASE (18), nodeid: 344, insize: 64, pid: 0
+   unique: 1214, success, outsize: 16
+unique: 1216, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1216, success, outsize: 144
+unique: 1218, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+   unique: 1218, error: -2 (No such file or directory), outsize: 16
+unique: 1220, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 244
+isfile: 349 is a file
+getfile 000000000000015d
+getfile 000000000000015d -> sz 0
+   unique: 1220, success, outsize: 160
+OK: create returns.
+unique: 1222, opcode: WRITE (16), nodeid: 349, insize: 84, pid: 244
+   unique: 1222, success, outsize: 24
+unique: 1224, opcode: RELEASE (18), nodeid: 349, insize: 64, pid: 0
+   unique: 1224, success, outsize: 16
+unique: 1226, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1226, success, outsize: 144
+unique: 1228, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+   unique: 1228, error: -2 (No such file or directory), outsize: 16
+unique: 1230, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 244
+isfile: 350 is a file
+getfile 000000000000015e
+getfile 000000000000015e -> sz 0
+   unique: 1230, success, outsize: 160
+OK: create returns.
+unique: 1232, opcode: WRITE (16), nodeid: 350, insize: 84, pid: 244
+   unique: 1232, success, outsize: 24
+unique: 1234, opcode: RELEASE (18), nodeid: 350, insize: 64, pid: 0
+   unique: 1234, success, outsize: 16
+unique: 1236, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1236, success, outsize: 144
+unique: 1238, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+   unique: 1238, error: -2 (No such file or directory), outsize: 16
+unique: 1240, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 244
+isfile: 351 is a file
+getfile 000000000000015f
+getfile 000000000000015f -> sz 0
+   unique: 1240, success, outsize: 160
+OK: create returns.
+unique: 1242, opcode: WRITE (16), nodeid: 351, insize: 84, pid: 244
+   unique: 1242, success, outsize: 24
+unique: 1244, opcode: RELEASE (18), nodeid: 351, insize: 64, pid: 0
+   unique: 1244, success, outsize: 16
+unique: 1246, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1246, success, outsize: 144
+unique: 1248, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+   unique: 1248, error: -2 (No such file or directory), outsize: 16
+unique: 1250, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 244
+isfile: 352 is a file
+getfile 0000000000000160
+getfile 0000000000000160 -> sz 0
+   unique: 1250, success, outsize: 160
+OK: create returns.
+unique: 1252, opcode: WRITE (16), nodeid: 352, insize: 84, pid: 244
+   unique: 1252, success, outsize: 24
+unique: 1254, opcode: RELEASE (18), nodeid: 352, insize: 64, pid: 0
+   unique: 1254, success, outsize: 16
+unique: 1256, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1256, success, outsize: 144
+unique: 1258, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+   unique: 1258, error: -2 (No such file or directory), outsize: 16
+unique: 1260, opcode: CREATE (35), nodeid: 315, insize: 61, pid: 244
+isfile: 353 is a file
+getfile 0000000000000161
+getfile 0000000000000161 -> sz 0
+   unique: 1260, success, outsize: 160
+OK: create returns.
+unique: 1262, opcode: WRITE (16), nodeid: 353, insize: 84, pid: 244
+   unique: 1262, success, outsize: 24
+unique: 1264, opcode: RELEASE (18), nodeid: 353, insize: 64, pid: 0
+   unique: 1264, success, outsize: 16
+unique: 1266, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 248
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1266, success, outsize: 144
+unique: 1268, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 248
+isfile: 344 is a file
+getfile 0000000000000158
+getfile 0000000000000158 -> sz 4
+   unique: 1268, success, outsize: 144
+unique: 1270, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 248
+isfile: 344 is not a dir
+   unique: 1270, success, outsize: 16
+unique: 1272, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 248
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1272, success, outsize: 144
+unique: 1274, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 248
+isfile: 345 is a file
+getfile 0000000000000159
+getfile 0000000000000159 -> sz 4
+   unique: 1274, success, outsize: 144
+unique: 1276, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 248
+isfile: 345 is not a dir
+   unique: 1276, success, outsize: 16
+unique: 1278, opcode: FORGET (2), nodeid: 345, insize: 48, pid: 0
+unique: 1280, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 248
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1280, success, outsize: 144
+unique: 1282, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 248
+isfile: 346 is a file
+getfile 000000000000015a
+getfile 000000000000015a -> sz 4
+   unique: 1282, success, outsize: 144
+unique: 1284, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 248
+isfile: 346 is not a dir
+   unique: 1284, success, outsize: 16
+unique: 1286, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 248
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1286, success, outsize: 144
+unique: 1288, opcode: FORGET (2), nodeid: 346, insize: 48, pid: 0
+unique: 1290, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 248
+isfile: 347 is a file
+getfile 000000000000015b
+getfile 000000000000015b -> sz 4
+   unique: 1290, success, outsize: 144
+unique: 1292, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 248
+isfile: 347 is not a dir
+   unique: 1292, success, outsize: 16
+unique: 1294, opcode: FORGET (2), nodeid: 347, insize: 48, pid: 0
+unique: 1296, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 248
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1296, success, outsize: 144
+unique: 1298, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 248
+isfile: 348 is a file
+getfile 000000000000015c
+getfile 000000000000015c -> sz 4
+   unique: 1298, success, outsize: 144
+unique: 1300, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 248
+isfile: 348 is not a dir
+   unique: 1300, success, outsize: 16
+unique: 1302, opcode: FORGET (2), nodeid: 348, insize: 48, pid: 0
+unique: 1304, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1304, success, outsize: 144
+unique: 1306, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 349 is a file
+getfile 000000000000015d
+getfile 000000000000015d -> sz 4
+   unique: 1306, success, outsize: 144
+unique: 1308, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 349 is not a dir
+   unique: 1308, success, outsize: 16
+unique: 1310, opcode: FORGET (2), nodeid: 349, insize: 48, pid: 0
+unique: 1312, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1312, success, outsize: 144
+unique: 1314, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 350 is a file
+getfile 000000000000015e
+getfile 000000000000015e -> sz 4
+   unique: 1314, success, outsize: 144
+unique: 1316, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 350 is not a dir
+   unique: 1316, success, outsize: 16
+unique: 1318, opcode: FORGET (2), nodeid: 350, insize: 48, pid: 0
+unique: 1320, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1320, success, outsize: 144
+unique: 1322, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 351 is a file
+getfile 000000000000015f
+getfile 000000000000015f -> sz 4
+   unique: 1322, success, outsize: 144
+unique: 1324, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 351 is not a dir
+   unique: 1324, success, outsize: 16
+unique: 1326, opcode: FORGET (2), nodeid: 351, insize: 48, pid: 0
+unique: 1328, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1328, success, outsize: 144
+unique: 1330, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 352 is a file
+getfile 0000000000000160
+getfile 0000000000000160 -> sz 4
+   unique: 1330, success, outsize: 144
+unique: 1332, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 352 is not a dir
+   unique: 1332, success, outsize: 16
+unique: 1334, opcode: FORGET (2), nodeid: 352, insize: 48, pid: 0
+unique: 1336, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1336, success, outsize: 144
+unique: 1338, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 353 is a file
+getfile 0000000000000161
+getfile 0000000000000161 -> sz 4
+   unique: 1338, success, outsize: 144
+unique: 1340, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 353 is not a dir
+   unique: 1340, success, outsize: 16
+unique: 1342, opcode: FORGET (2), nodeid: 353, insize: 48, pid: 0
+unique: 1344, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1344, success, outsize: 144
+unique: 1346, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 354 is a file
+getfile 0000000000000162
+getfile 0000000000000162 -> sz 4
+   unique: 1346, success, outsize: 144
+unique: 1348, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 354 is not a dir
+   unique: 1348, success, outsize: 16
+unique: 1350, opcode: FORGET (2), nodeid: 354, insize: 48, pid: 0
+unique: 1352, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1352, success, outsize: 144
+unique: 1354, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 355 is a file
+getfile 0000000000000163
+getfile 0000000000000163 -> sz 4
+   unique: 1354, success, outsize: 144
+unique: 1356, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 355 is not a dir
+   unique: 1356, success, outsize: 16
+unique: 1358, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1358, success, outsize: 144
+unique: 1360, opcode: FORGET (2), nodeid: 355, insize: 48, pid: 0
+unique: 1362, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 356 is a file
+getfile 0000000000000164
+getfile 0000000000000164 -> sz 4
+   unique: 1362, success, outsize: 144
+unique: 1364, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 356 is not a dir
+   unique: 1364, success, outsize: 16
+unique: 1366, opcode: FORGET (2), nodeid: 356, insize: 48, pid: 0
+unique: 1368, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1368, success, outsize: 144
+unique: 1370, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 357 is a file
+getfile 0000000000000165
+getfile 0000000000000165 -> sz 4
+   unique: 1370, success, outsize: 144
+unique: 1372, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 357 is not a dir
+   unique: 1372, success, outsize: 16
+unique: 1374, opcode: FORGET (2), nodeid: 357, insize: 48, pid: 0
+unique: 1376, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1376, success, outsize: 144
+unique: 1378, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 358 is a file
+getfile 0000000000000166
+getfile 0000000000000166 -> sz 4
+   unique: 1378, success, outsize: 144
+unique: 1380, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 358 is not a dir
+   unique: 1380, success, outsize: 16
+unique: 1382, opcode: FORGET (2), nodeid: 358, insize: 48, pid: 0
+unique: 1384, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1384, success, outsize: 144
+unique: 1386, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 359 is a file
+getfile 0000000000000167
+getfile 0000000000000167 -> sz 4
+   unique: 1386, success, outsize: 144
+unique: 1388, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 359 is not a dir
+   unique: 1388, success, outsize: 16
+unique: 1390, opcode: FORGET (2), nodeid: 359, insize: 48, pid: 0
+unique: 1392, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1392, success, outsize: 144
+unique: 1394, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 360 is a file
+getfile 0000000000000168
+getfile 0000000000000168 -> sz 4
+   unique: 1394, success, outsize: 144
+unique: 1396, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 360 is not a dir
+   unique: 1396, success, outsize: 16
+unique: 1398, opcode: FORGET (2), nodeid: 360, insize: 48, pid: 0
+unique: 1400, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1400, success, outsize: 144
+unique: 1402, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 361 is a file
+getfile 0000000000000169
+getfile 0000000000000169 -> sz 4
+   unique: 1402, success, outsize: 144
+unique: 1404, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 361 is not a dir
+   unique: 1404, success, outsize: 16
+unique: 1406, opcode: FORGET (2), nodeid: 361, insize: 48, pid: 0
+unique: 1408, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1408, success, outsize: 144
+unique: 1410, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 362 is a file
+getfile 000000000000016a
+getfile 000000000000016a -> sz 4
+   unique: 1410, success, outsize: 144
+unique: 1412, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 362 is not a dir
+   unique: 1412, success, outsize: 16
+unique: 1414, opcode: FORGET (2), nodeid: 362, insize: 48, pid: 0
+unique: 1416, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1416, success, outsize: 144
+unique: 1418, opcode: LOOKUP (1), nodeid: 315, insize: 45, pid: 244
+isfile: 363 is a file
+getfile 000000000000016b
+getfile 000000000000016b -> sz 4
+   unique: 1418, success, outsize: 144
+unique: 1420, opcode: UNLINK (10), nodeid: 315, insize: 45, pid: 244
+isfile: 363 is not a dir
+   unique: 1420, success, outsize: 16
+unique: 1422, opcode: FORGET (2), nodeid: 363, insize: 48, pid: 0
+unique: 1424, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 250
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1424, success, outsize: 144
+unique: 1426, opcode: LOOKUP (1), nodeid: 315, insize: 44, pid: 250
+isfile: 372 is a file
+getfile 0000000000000174
+getfile 0000000000000174 -> sz 65535
+   unique: 1426, success, outsize: 144
+unique: 1428, opcode: OPEN (14), nodeid: 372, insize: 48, pid: 250
+   unique: 1428, success, outsize: 32
+unique: 1430, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1430, success, outsize: 24
+unique: 1432, opcode: FSYNC (20), nodeid: 372, insize: 56, pid: 250
+   unique: 1432, error: -38 (Function not implemented), outsize: 16
+unique: 1434, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1434, success, outsize: 24
+unique: 1436, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1436, success, outsize: 24
+unique: 1438, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1438, success, outsize: 24
+unique: 1440, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1440, success, outsize: 24
+unique: 1442, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1442, success, outsize: 24
+unique: 1444, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1444, success, outsize: 24
+unique: 1446, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1446, success, outsize: 24
+unique: 1448, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1448, success, outsize: 24
+unique: 1450, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1450, success, outsize: 24
+unique: 1452, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1452, success, outsize: 24
+unique: 1454, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1454, success, outsize: 24
+unique: 1456, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1456, success, outsize: 24
+unique: 1458, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1458, success, outsize: 24
+unique: 1460, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1460, success, outsize: 24
+unique: 1462, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1462, success, outsize: 24
+unique: 1464, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1464, success, outsize: 24
+unique: 1466, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1466, success, outsize: 24
+unique: 1468, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1468, success, outsize: 24
+unique: 1470, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1470, success, outsize: 24
+unique: 1472, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1472, success, outsize: 24
+unique: 1474, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1474, success, outsize: 24
+unique: 1476, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1476, success, outsize: 24
+unique: 1478, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1478, success, outsize: 24
+unique: 1480, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1480, success, outsize: 24
+unique: 1482, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1482, success, outsize: 24
+unique: 1484, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1484, success, outsize: 24
+unique: 1486, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1486, success, outsize: 24
+unique: 1488, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1488, success, outsize: 24
+unique: 1490, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1490, success, outsize: 24
+unique: 1492, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1492, success, outsize: 24
+unique: 1494, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1494, success, outsize: 24
+unique: 1496, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1496, success, outsize: 24
+unique: 1498, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1498, success, outsize: 24
+unique: 1500, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1500, success, outsize: 24
+unique: 1502, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1502, success, outsize: 24
+unique: 1504, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1504, success, outsize: 24
+unique: 1506, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1506, success, outsize: 24
+unique: 1508, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1508, success, outsize: 24
+unique: 1510, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1510, success, outsize: 24
+unique: 1512, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1512, success, outsize: 24
+unique: 1514, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1514, success, outsize: 24
+unique: 1516, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1516, success, outsize: 24
+unique: 1518, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1518, success, outsize: 24
+unique: 1520, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1520, success, outsize: 24
+unique: 1522, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1522, success, outsize: 24
+unique: 1524, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1524, success, outsize: 24
+unique: 1526, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1526, success, outsize: 24
+unique: 1528, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1528, success, outsize: 24
+unique: 1530, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1530, success, outsize: 24
+unique: 1532, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1532, success, outsize: 24
+unique: 1534, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1534, success, outsize: 24
+unique: 1536, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1536, success, outsize: 24
+unique: 1538, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1538, success, outsize: 24
+unique: 1540, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1540, success, outsize: 24
+unique: 1542, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1542, success, outsize: 24
+unique: 1544, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1544, success, outsize: 24
+unique: 1546, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1546, success, outsize: 24
+unique: 1548, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1548, success, outsize: 24
+unique: 1550, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1550, success, outsize: 24
+unique: 1552, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1552, success, outsize: 24
+unique: 1554, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1554, success, outsize: 24
+unique: 1556, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1556, success, outsize: 24
+unique: 1558, opcode: WRITE (16), nodeid: 372, insize: 81, pid: 250
+   unique: 1558, success, outsize: 24
+unique: 1560, opcode: RELEASE (18), nodeid: 372, insize: 64, pid: 0
+   unique: 1560, success, outsize: 16
+unique: 1562, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1562, success, outsize: 144
+unique: 1564, opcode: LOOKUP (1), nodeid: 315, insize: 44, pid: 244
+isfile: 372 is a file
+getfile 0000000000000174
+getfile 0000000000000174 -> sz 65535
+   unique: 1564, success, outsize: 144
+unique: 1566, opcode: OPEN (14), nodeid: 372, insize: 48, pid: 244
+   unique: 1566, success, outsize: 32
+unique: 1568, opcode: READ (15), nodeid: 372, insize: 80, pid: 244
+   unique: 1568, success, outsize: 16400
+unique: 1570, opcode: RELEASE (18), nodeid: 372, insize: 64, pid: 0
+   unique: 1570, success, outsize: 16
+unique: 1572, opcode: LOOKUP (1), nodeid: 1, insize: 45, pid: 244
+isfile: 315 is a dir
+isfile: 315 is a dir
+getdir 000000000000013b
+   unique: 1572, success, outsize: 144
+unique: 1574, opcode: LOOKUP (1), nodeid: 315, insize: 44, pid: 244
+isfile: 372 is a file
+getfile 0000000000000174
+getfile 0000000000000174 -> sz 65535
+   unique: 1574, success, outsize: 144
+unique: 1576, opcode: OPEN (14), nodeid: 372, insize: 48, pid: 244
+   unique: 1576, success, outsize: 32
+unique: 1578, opcode: READ (15), nodeid: 372, insize: 80, pid: 244
+   unique: 1578, success, outsize: 4112
+unique: 1580, opcode: RELEASE (18), nodeid: 372, insize: 64, pid: 0
+   unique: 1580, success, outsize: 16
+unique: 1582, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 268
+   unique: 1582, error: -2 (No such file or directory), outsize: 16
+unique: 1584, opcode: MKDIR (9), nodeid: 1, insize: 54, pid: 268
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1584, success, outsize: 144
+unique: 1586, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 268
+isfile: 373 is a dir
+isfile: 373 is a dir
+getdir 0000000000000175
+   unique: 1586, success, outsize: 144
+unique: 1588, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1588, success, outsize: 144
+unique: 1590, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1590, error: -2 (No such file or directory), outsize: 16
+unique: 1592, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 376 is a file
+getfile 0000000000000178
+getfile 0000000000000178 -> sz 0
+   unique: 1592, success, outsize: 160
+OK: create returns.
+unique: 1594, opcode: WRITE (16), nodeid: 376, insize: 84, pid: 270
+   unique: 1594, success, outsize: 24
+unique: 1596, opcode: RELEASE (18), nodeid: 376, insize: 64, pid: 0
+   unique: 1596, success, outsize: 16
+unique: 1598, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1598, success, outsize: 144
+unique: 1600, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1600, error: -2 (No such file or directory), outsize: 16
+unique: 1602, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 378 is a file
+getfile 000000000000017a
+getfile 000000000000017a -> sz 0
+   unique: 1602, success, outsize: 160
+OK: create returns.
+unique: 1604, opcode: WRITE (16), nodeid: 378, insize: 84, pid: 270
+   unique: 1604, success, outsize: 24
+unique: 1606, opcode: RELEASE (18), nodeid: 378, insize: 64, pid: 0
+   unique: 1606, success, outsize: 16
+unique: 1608, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1608, success, outsize: 144
+unique: 1610, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1610, error: -2 (No such file or directory), outsize: 16
+unique: 1612, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 380 is a file
+getfile 000000000000017c
+getfile 000000000000017c -> sz 0
+   unique: 1612, success, outsize: 160
+OK: create returns.
+unique: 1614, opcode: WRITE (16), nodeid: 380, insize: 84, pid: 270
+   unique: 1614, success, outsize: 24
+unique: 1616, opcode: RELEASE (18), nodeid: 380, insize: 64, pid: 0
+   unique: 1616, success, outsize: 16
+unique: 1618, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1618, success, outsize: 144
+unique: 1620, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1620, error: -2 (No such file or directory), outsize: 16
+unique: 1622, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 382 is a file
+getfile 000000000000017e
+getfile 000000000000017e -> sz 0
+   unique: 1622, success, outsize: 160
+OK: create returns.
+unique: 1624, opcode: WRITE (16), nodeid: 382, insize: 84, pid: 270
+   unique: 1624, success, outsize: 24
+unique: 1626, opcode: RELEASE (18), nodeid: 382, insize: 64, pid: 0
+   unique: 1626, success, outsize: 16
+unique: 1628, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1628, success, outsize: 144
+unique: 1630, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1630, error: -2 (No such file or directory), outsize: 16
+unique: 1632, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 383 is a file
+getfile 000000000000017f
+getfile 000000000000017f -> sz 0
+   unique: 1632, success, outsize: 160
+OK: create returns.
+unique: 1634, opcode: WRITE (16), nodeid: 383, insize: 84, pid: 270
+   unique: 1634, success, outsize: 24
+unique: 1636, opcode: RELEASE (18), nodeid: 383, insize: 64, pid: 0
+   unique: 1636, success, outsize: 16
+unique: 1638, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1638, success, outsize: 144
+unique: 1640, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1640, error: -2 (No such file or directory), outsize: 16
+unique: 1642, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 386 is a file
+getfile 0000000000000182
+getfile 0000000000000182 -> sz 0
+   unique: 1642, success, outsize: 160
+OK: create returns.
+unique: 1644, opcode: WRITE (16), nodeid: 386, insize: 84, pid: 270
+   unique: 1644, success, outsize: 24
+unique: 1646, opcode: RELEASE (18), nodeid: 386, insize: 64, pid: 0
+   unique: 1646, success, outsize: 16
+unique: 1648, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1648, success, outsize: 144
+unique: 1650, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1650, error: -2 (No such file or directory), outsize: 16
+unique: 1652, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 388 is a file
+getfile 0000000000000184
+getfile 0000000000000184 -> sz 0
+   unique: 1652, success, outsize: 160
+OK: create returns.
+unique: 1654, opcode: WRITE (16), nodeid: 388, insize: 84, pid: 270
+   unique: 1654, success, outsize: 24
+unique: 1656, opcode: RELEASE (18), nodeid: 388, insize: 64, pid: 0
+   unique: 1656, success, outsize: 16
+unique: 1658, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1658, success, outsize: 144
+unique: 1660, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1660, error: -2 (No such file or directory), outsize: 16
+unique: 1662, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 390 is a file
+getfile 0000000000000186
+getfile 0000000000000186 -> sz 0
+   unique: 1662, success, outsize: 160
+OK: create returns.
+unique: 1664, opcode: WRITE (16), nodeid: 390, insize: 84, pid: 270
+   unique: 1664, success, outsize: 24
+unique: 1666, opcode: RELEASE (18), nodeid: 390, insize: 64, pid: 0
+   unique: 1666, success, outsize: 16
+unique: 1668, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1668, success, outsize: 144
+unique: 1670, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1670, error: -2 (No such file or directory), outsize: 16
+unique: 1672, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 392 is a file
+getfile 0000000000000188
+getfile 0000000000000188 -> sz 0
+   unique: 1672, success, outsize: 160
+OK: create returns.
+unique: 1674, opcode: WRITE (16), nodeid: 392, insize: 84, pid: 270
+   unique: 1674, success, outsize: 24
+unique: 1676, opcode: RELEASE (18), nodeid: 392, insize: 64, pid: 0
+   unique: 1676, success, outsize: 16
+unique: 1678, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1678, success, outsize: 144
+unique: 1680, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+   unique: 1680, error: -2 (No such file or directory), outsize: 16
+unique: 1682, opcode: CREATE (35), nodeid: 374, insize: 61, pid: 270
+isfile: 394 is a file
+getfile 000000000000018a
+getfile 000000000000018a -> sz 0
+   unique: 1682, success, outsize: 160
+OK: create returns.
+unique: 1684, opcode: WRITE (16), nodeid: 394, insize: 84, pid: 270
+   unique: 1684, success, outsize: 24
+unique: 1686, opcode: RELEASE (18), nodeid: 394, insize: 64, pid: 0
+   unique: 1686, success, outsize: 16
+unique: 1688, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1688, success, outsize: 144
+unique: 1690, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 376 is a file
+getfile 0000000000000178
+getfile 0000000000000178 -> sz 4
+   unique: 1690, success, outsize: 144
+unique: 1692, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 376 is not a dir
+   unique: 1692, success, outsize: 16
+unique: 1694, opcode: FORGET (2), nodeid: 376, insize: 48, pid: 0
+unique: 1696, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1696, success, outsize: 144
+unique: 1698, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 378 is a file
+getfile 000000000000017a
+getfile 000000000000017a -> sz 4
+   unique: 1698, success, outsize: 144
+unique: 1700, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 378 is not a dir
+   unique: 1700, success, outsize: 16
+unique: 1702, opcode: FORGET (2), nodeid: 378, insize: 48, pid: 0
+unique: 1704, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1704, success, outsize: 144
+unique: 1706, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 380 is a file
+getfile 000000000000017c
+getfile 000000000000017c -> sz 4
+   unique: 1706, success, outsize: 144
+unique: 1708, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 380 is not a dir
+   unique: 1708, success, outsize: 16
+unique: 1710, opcode: FORGET (2), nodeid: 380, insize: 48, pid: 0
+unique: 1712, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1712, success, outsize: 144
+unique: 1714, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 382 is a file
+getfile 000000000000017e
+getfile 000000000000017e -> sz 4
+   unique: 1714, success, outsize: 144
+unique: 1716, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 382 is not a dir
+   unique: 1716, success, outsize: 16
+unique: 1718, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1718, success, outsize: 144
+unique: 1720, opcode: FORGET (2), nodeid: 382, insize: 48, pid: 0
+unique: 1722, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 383 is a file
+getfile 000000000000017f
+getfile 000000000000017f -> sz 4
+   unique: 1722, success, outsize: 144
+unique: 1724, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 383 is not a dir
+   unique: 1724, success, outsize: 16
+unique: 1726, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1726, success, outsize: 144
+unique: 1728, opcode: FORGET (2), nodeid: 383, insize: 48, pid: 0
+unique: 1730, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 386 is a file
+getfile 0000000000000182
+getfile 0000000000000182 -> sz 4
+   unique: 1730, success, outsize: 144
+unique: 1732, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 386 is not a dir
+   unique: 1732, success, outsize: 16
+unique: 1734, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1734, success, outsize: 144
+unique: 1736, opcode: FORGET (2), nodeid: 386, insize: 48, pid: 0
+unique: 1738, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 388 is a file
+getfile 0000000000000184
+getfile 0000000000000184 -> sz 4
+   unique: 1738, success, outsize: 144
+unique: 1740, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 388 is not a dir
+   unique: 1740, success, outsize: 16
+unique: 1742, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1742, success, outsize: 144
+unique: 1744, opcode: FORGET (2), nodeid: 388, insize: 48, pid: 0
+unique: 1746, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 390 is a file
+getfile 0000000000000186
+getfile 0000000000000186 -> sz 4
+   unique: 1746, success, outsize: 144
+unique: 1748, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 390 is not a dir
+   unique: 1748, success, outsize: 16
+unique: 1750, opcode: FORGET (2), nodeid: 390, insize: 48, pid: 0
+unique: 1752, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 270
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1752, success, outsize: 144
+unique: 1754, opcode: LOOKUP (1), nodeid: 374, insize: 45, pid: 270
+isfile: 392 is a file
+getfile 0000000000000188
+getfile 0000000000000188 -> sz 4
+   unique: 1754, success, outsize: 144
+unique: 1756, opcode: UNLINK (10), nodeid: 374, insize: 45, pid: 270
+isfile: 392 is not a dir
+   unique: 1756, success, outsize: 16
+unique: 1758, opcode: FORGET (2), nodeid: 392, insize: 48, pid: 0
+unique: 1760, opcode: LOOKUP (1), nodeid: 1, insize: 46, pid: 268
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1760, success, outsize: 144
+unique: 1762, opcode: OPENDIR (27), nodeid: 374, insize: 48, pid: 268
+   unique: 1762, success, outsize: 32
+unique: 1764, opcode: GETATTR (3), nodeid: 374, insize: 56, pid: 268
+isfile: 374 is a dir
+isfile: 374 is a dir
+getdir 0000000000000176
+   unique: 1764, success, outsize: 120
+unique: 1766, opcode: READDIR (28), nodeid: 374, insize: 80, pid: 268
+fuseserver_readdir
+isfile: 374 is a dir
+   unique: 1766, success, outsize: 48
+unique: 1768, opcode: READDIR (28), nodeid: 374, insize: 80, pid: 268
+fuseserver_readdir
+isfile: 374 is a dir
+   unique: 1768, success, outsize: 16
+unique: 1770, opcode: RELEASEDIR (29), nodeid: 374, insize: 64, pid: 0
+   unique: 1770, success, outsize: 16
+fuse: failed to unmount /home/stu/devlop/yfs2: Invalid argument
